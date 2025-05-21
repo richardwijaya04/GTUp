@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2D532E2DCB459A00E40DE9 /* GTUpWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F2D53212DCB459900E40DE9 /* GTUpWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FF6D1DB2DD583210010CE5C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF6D1DA2DD583210010CE5C /* WidgetKit.framework */; };
+		3FF6D1DD2DD583210010CE5C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF6D1DC2DD583210010CE5C /* SwiftUI.framework */; };
+		3FF6D1E82DD583220010CE5C /* GTUpWatchWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3FF6D1D82DD583210010CE5C /* GTUpWatchWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2D532C2DCB459A00E40DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7F3D582D8BBCF50006138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2D53202DCB459900E40DE9;
+			remoteInfo = "GTUpWatch Watch App";
+		};
+		3FF6D1E62DD583220010CE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7F3D582D8BBCF50006138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF6D1D72DD583210010CE5C;
+			remoteInfo = GTUpWatchWidgetExtensionExtension;
+		};
+		9B7F3D732D8BBCF60006138E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7F3D582D8BBCF50006138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7F3D5F2D8BBCF50006138E;
+			remoteInfo = CoreChal1;
+		};
+		9B7F3D7D2D8BBCF60006138E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7F3D582D8BBCF50006138E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7F3D5F2D8BBCF50006138E;
+			remoteInfo = CoreChal1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F2D532F2DCB459A00E40DE9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F2D532E2DCB459A00E40DE9 /* GTUpWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F90196A2D951975008A4219 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF6D1ED2DD583220010CE5C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FF6D1E82DD583220010CE5C /* GTUpWatchWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F2D53212DCB459900E40DE9 /* GTUpWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GTUpWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF6D1D82DD583210010CE5C /* GTUpWatchWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GTUpWatchWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF6D1DA2DD583210010CE5C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3FF6D1DC2DD583210010CE5C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9B7F3D602D8BBCF50006138E /* CoreChal1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreChal1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7F3D722D8BBCF60006138E /* CoreChal1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreChal1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7F3D7C2D8BBCF60006138E /* CoreChal1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreChal1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FF6D1E92DD583220010CE5C /* Exceptions for "GTUpWatchWidgetExtension" folder in "GTUpWatchWidgetExtensionExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3FF6D1D72DD583210010CE5C /* GTUpWatchWidgetExtensionExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F2D53222DCB459900E40DE9 /* GTUpWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GTUpWatch Watch App";
+			sourceTree = "<group>";
+		};
+		3FF6D1DE2DD583210010CE5C /* GTUpWatchWidgetExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FF6D1E92DD583220010CE5C /* Exceptions for "GTUpWatchWidgetExtension" folder in "GTUpWatchWidgetExtensionExtension" target */,
+			);
+			path = GTUpWatchWidgetExtension;
+			sourceTree = "<group>";
+		};
+		9B7F3D622D8BBCF50006138E /* CoreChal1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreChal1;
+			sourceTree = "<group>";
+		};
+		9B7F3D752D8BBCF60006138E /* CoreChal1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreChal1Tests;
+			sourceTree = "<group>";
+		};
+		9B7F3D7F2D8BBCF60006138E /* CoreChal1UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoreChal1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2D531E2DCB459900E40DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF6D1D52DD583210010CE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF6D1DD2DD583210010CE5C /* SwiftUI.framework in Frameworks */,
+				3FF6D1DB2DD583210010CE5C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D5D2D8BBCF50006138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D6F2D8BBCF60006138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D792D8BBCF60006138E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF6D1D92DD583210010CE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6D1DA2DD583210010CE5C /* WidgetKit.framework */,
+				3FF6D1DC2DD583210010CE5C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B7F3D572D8BBCF50006138E = {
+			isa = PBXGroup;
+			children = (
+				9B7F3D622D8BBCF50006138E /* CoreChal1 */,
+				9B7F3D752D8BBCF60006138E /* CoreChal1Tests */,
+				9B7F3D7F2D8BBCF60006138E /* CoreChal1UITests */,
+				3F2D53222DCB459900E40DE9 /* GTUpWatch Watch App */,
+				3FF6D1DE2DD583210010CE5C /* GTUpWatchWidgetExtension */,
+				3FF6D1D92DD583210010CE5C /* Frameworks */,
+				9B7F3D612D8BBCF50006138E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B7F3D612D8BBCF50006138E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B7F3D602D8BBCF50006138E /* CoreChal1.app */,
+				9B7F3D722D8BBCF60006138E /* CoreChal1Tests.xctest */,
+				9B7F3D7C2D8BBCF60006138E /* CoreChal1UITests.xctest */,
+				3F2D53212DCB459900E40DE9 /* GTUpWatch Watch App.app */,
+				3FF6D1D82DD583210010CE5C /* GTUpWatchWidgetExtensionExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2D53202DCB459900E40DE9 /* GTUpWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2D53322DCB459A00E40DE9 /* Build configuration list for PBXNativeTarget "GTUpWatch Watch App" */;
+			buildPhases = (
+				3F2D531D2DCB459900E40DE9 /* Sources */,
+				3F2D531E2DCB459900E40DE9 /* Frameworks */,
+				3F2D531F2DCB459900E40DE9 /* Resources */,
+				3FF6D1ED2DD583220010CE5C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF6D1E72DD583220010CE5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F2D53222DCB459900E40DE9 /* GTUpWatch Watch App */,
+			);
+			name = "GTUpWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "GTUpWatch Watch App";
+			productReference = 3F2D53212DCB459900E40DE9 /* GTUpWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF6D1D72DD583210010CE5C /* GTUpWatchWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF6D1EA2DD583220010CE5C /* Build configuration list for PBXNativeTarget "GTUpWatchWidgetExtensionExtension" */;
+			buildPhases = (
+				3FF6D1D42DD583210010CE5C /* Sources */,
+				3FF6D1D52DD583210010CE5C /* Frameworks */,
+				3FF6D1D62DD583210010CE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3FF6D1DE2DD583210010CE5C /* GTUpWatchWidgetExtension */,
+			);
+			name = GTUpWatchWidgetExtensionExtension;
+			packageProductDependencies = (
+			);
+			productName = GTUpWatchWidgetExtensionExtension;
+			productReference = 3FF6D1D82DD583210010CE5C /* GTUpWatchWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9B7F3D5F2D8BBCF50006138E /* CoreChal1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7F3D862D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1" */;
+			buildPhases = (
+				9B7F3D5C2D8BBCF50006138E /* Sources */,
+				9B7F3D5D2D8BBCF50006138E /* Frameworks */,
+				9B7F3D5E2D8BBCF50006138E /* Resources */,
+				3F90196A2D951975008A4219 /* Embed Foundation Extensions */,
+				3F2D532F2DCB459A00E40DE9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2D532D2DCB459A00E40DE9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9B7F3D622D8BBCF50006138E /* CoreChal1 */,
+			);
+			name = CoreChal1;
+			packageProductDependencies = (
+			);
+			productName = CoreChal1;
+			productReference = 9B7F3D602D8BBCF50006138E /* CoreChal1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B7F3D712D8BBCF60006138E /* CoreChal1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7F3D892D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1Tests" */;
+			buildPhases = (
+				9B7F3D6E2D8BBCF60006138E /* Sources */,
+				9B7F3D6F2D8BBCF60006138E /* Frameworks */,
+				9B7F3D702D8BBCF60006138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7F3D742D8BBCF60006138E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9B7F3D752D8BBCF60006138E /* CoreChal1Tests */,
+			);
+			name = CoreChal1Tests;
+			packageProductDependencies = (
+			);
+			productName = CoreChal1Tests;
+			productReference = 9B7F3D722D8BBCF60006138E /* CoreChal1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B7F3D7B2D8BBCF60006138E /* CoreChal1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7F3D8C2D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1UITests" */;
+			buildPhases = (
+				9B7F3D782D8BBCF60006138E /* Sources */,
+				9B7F3D792D8BBCF60006138E /* Frameworks */,
+				9B7F3D7A2D8BBCF60006138E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7F3D7E2D8BBCF60006138E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9B7F3D7F2D8BBCF60006138E /* CoreChal1UITests */,
+			);
+			name = CoreChal1UITests;
+			packageProductDependencies = (
+			);
+			productName = CoreChal1UITests;
+			productReference = 9B7F3D7C2D8BBCF60006138E /* CoreChal1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7F3D582D8BBCF50006138E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3F2D53202DCB459900E40DE9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3FF6D1D72DD583210010CE5C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					9B7F3D5F2D8BBCF50006138E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9B7F3D712D8BBCF60006138E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9B7F3D5F2D8BBCF50006138E;
+					};
+					9B7F3D7B2D8BBCF60006138E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9B7F3D5F2D8BBCF50006138E;
+					};
+				};
+			};
+			buildConfigurationList = 9B7F3D5B2D8BBCF50006138E /* Build configuration list for PBXProject "CoreChal1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B7F3D572D8BBCF50006138E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9B7F3D612D8BBCF50006138E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B7F3D5F2D8BBCF50006138E /* CoreChal1 */,
+				9B7F3D712D8BBCF60006138E /* CoreChal1Tests */,
+				9B7F3D7B2D8BBCF60006138E /* CoreChal1UITests */,
+				3F2D53202DCB459900E40DE9 /* GTUpWatch Watch App */,
+				3FF6D1D72DD583210010CE5C /* GTUpWatchWidgetExtensionExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2D531F2DCB459900E40DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF6D1D62DD583210010CE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D5E2D8BBCF50006138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D702D8BBCF60006138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D7A2D8BBCF60006138E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2D531D2DCB459900E40DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF6D1D42DD583210010CE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D5C2D8BBCF50006138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D6E2D8BBCF60006138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7F3D782D8BBCF60006138E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2D532D2DCB459A00E40DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2D53202DCB459900E40DE9 /* GTUpWatch Watch App */;
+			targetProxy = 3F2D532C2DCB459A00E40DE9 /* PBXContainerItemProxy */;
+		};
+		3FF6D1E72DD583220010CE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF6D1D72DD583210010CE5C /* GTUpWatchWidgetExtensionExtension */;
+			targetProxy = 3FF6D1E62DD583220010CE5C /* PBXContainerItemProxy */;
+		};
+		9B7F3D742D8BBCF60006138E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B7F3D5F2D8BBCF50006138E /* CoreChal1 */;
+			targetProxy = 9B7F3D732D8BBCF60006138E /* PBXContainerItemProxy */;
+		};
+		9B7F3D7E2D8BBCF60006138E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B7F3D5F2D8BBCF50006138E /* CoreChal1 */;
+			targetProxy = 9B7F3D7D2D8BBCF60006138E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F2D53302DCB459A00E40DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTUpWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 476954S3MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GTUpWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ADA.CoreChal1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		3F2D53312DCB459A00E40DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GTUpWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 476954S3MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GTUpWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = ADA.CoreChal1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		3FF6D1EB2DD583220010CE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 476954S3MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GTUpWatchWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GTUpWatchWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1.watchkitapp.GTUpWatchWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		3FF6D1EC2DD583220010CE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 476954S3MU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GTUpWatchWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GTUpWatchWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1.watchkitapp.GTUpWatchWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		9B7F3D842D8BBCF60006138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B7F3D852D8BBCF60006138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B7F3D872D8BBCF60006138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoreChal1/CoreChal1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreChal1/Preview Content\"";
+				DEVELOPMENT_TEAM = 476954S3MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to health app to let our app function properly";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B7F3D882D8BBCF60006138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoreChal1/CoreChal1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreChal1/Preview Content\"";
+				DEVELOPMENT_TEAM = 476954S3MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to health app to let our app function properly";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B7F3D8A2D8BBCF60006138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreChal1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreChal1";
+			};
+			name = Debug;
+		};
+		9B7F3D8B2D8BBCF60006138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreChal1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreChal1";
+			};
+			name = Release;
+		};
+		9B7F3D8D2D8BBCF60006138E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreChal1;
+			};
+			name = Debug;
+		};
+		9B7F3D8E2D8BBCF60006138E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ADA.CoreChal1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreChal1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2D53322DCB459A00E40DE9 /* Build configuration list for PBXNativeTarget "GTUpWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2D53302DCB459A00E40DE9 /* Debug */,
+				3F2D53312DCB459A00E40DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF6D1EA2DD583220010CE5C /* Build configuration list for PBXNativeTarget "GTUpWatchWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF6D1EB2DD583220010CE5C /* Debug */,
+				3FF6D1EC2DD583220010CE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7F3D5B2D8BBCF50006138E /* Build configuration list for PBXProject "CoreChal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F3D842D8BBCF60006138E /* Debug */,
+				9B7F3D852D8BBCF60006138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7F3D862D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F3D872D8BBCF60006138E /* Debug */,
+				9B7F3D882D8BBCF60006138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7F3D892D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F3D8A2D8BBCF60006138E /* Debug */,
+				9B7F3D8B2D8BBCF60006138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7F3D8C2D8BBCF60006138E /* Build configuration list for PBXNativeTarget "CoreChal1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7F3D8D2D8BBCF60006138E /* Debug */,
+				9B7F3D8E2D8BBCF60006138E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B7F3D582D8BBCF50006138E /* Project object */;
+}
